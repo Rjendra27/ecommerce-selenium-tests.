@@ -1,0 +1,14 @@
+{
+  "name": "ecommerce-selenium-js",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha tests --timeout 60000 --exit",
+    "test:smoke": "mocha tests --timeout 60000 --exit --grep @smoke",
+    "test:regression": "mocha tests --timeout 60000 --exit --grep @regression"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.21.0"
+  }
+}
